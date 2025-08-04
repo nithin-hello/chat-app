@@ -55,5 +55,5 @@ app.use("/api/messages", messageRouter)
     server.listen(PORT, ()=> console.log("Server is running on PORT: " + PORT));
 }
 
-// Export server for Vervel
-// export default server;
+// Export server for Vercel
+export default server;
